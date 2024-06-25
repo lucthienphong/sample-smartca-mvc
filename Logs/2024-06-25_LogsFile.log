@@ -1,0 +1,75 @@
+03:49:46.059 PM 
+======================Sign Pdf File=====================
+ * RequestParam:
+    - appId: 4540-637891593888578338.apps.smartcaapi.com
+    - appSecret: MjAzYjZhMWY-NzRiZS00NTQw
+    - userId: 056090002082
+    - serialNumber: 
+    - transactionDesc: Test ký file Template_HDSD_quy tắc điền biến.pdf
+    - signType: Hash
+    - fileName: Template_HDSD_quy tắc điền biến.pdf
+    - fileType: PDF
+ 1. Get Certificate 
+ * Response: 
+    - serialNumber: 54010101ca8adb081aa297411f910286
+    - transactionId: 4192dabf-77fd-4fa0-bcd0-4c3696fcefb4
+ 2. Get Hash Signer 
+ * Hash Value: 16hNO8xOFrhLuucUMDVNqkM4RI4P4LKEhCgjOurBG2M=
+ 3. Sign Data 
+ * Wait for user confirm: Transaction_Id = 4192dabf-77fd-4fa0-bcd0-4c3696fcefb4:
+    - Wait for user confirm count : 1
+ * Result
+     - Sign successful
+
+03:53:50.470 PM 
+======================Sign Pdf File=====================
+ * RequestParam:
+    - appId: 4540-637891593888578338.apps.smartcaapi.com
+    - appSecret: MjAzYjZhMWY-NzRiZS00NTQw
+    - userId: 056200002669_002
+    - serialNumber: 
+    - transactionDesc: Test ký file Template_HDSD_quy tắc điền biến.pdf
+    - signType: Hash
+    - fileName: Template_HDSD_quy tắc điền biến.pdf
+    - fileType: PDF
+ 1. Get Certificate 
+ * Response: 
+    - serialNumber: 54010101491f033fd3df042099eb00b0
+    - transactionId: 7ab6adbe-20e7-42d8-9757-7d298155e460
+ 2. Get Hash Signer 
+ * Hash Value: LZLnj8+n9/h6zVT7unYff1iAqMrIRZ0LsCgJaUuLOyc=
+ 3. Sign Data 
+ * Wait for user confirm: Transaction_Id = 7ab6adbe-20e7-42d8-9757-7d298155e460:
+    - Wait for user confirm count : 1
+    - Wait for user confirm count : 2
+    - Wait for user confirm count : 3
+    - Wait for user confirm count : 4
+    - Wait for user confirm count : 5
+    - Wait for user confirm count : 6
+    - Wait for user confirm count : 7
+    - Wait for user confirm count : 8
+    - Wait for user confirm count : 9
+    - Wait for user confirm count : 10
+    - Wait for user confirm count : 11
+    - Wait for user confirm count : 12
+    - Wait for user confirm count : 13
+    - Wait for user confirm count : 14
+    - Wait for user confirm count : 15
+    - Wait for user confirm count : 16
+    - Wait for user confirm count : 17
+    - Wait for user confirm count : 18
+    - Wait for user confirm count : 19
+    - Wait for user confirm count : 20
+    - Wait for user confirm count : 21
+    - Wait for user confirm count : 22
+    - Wait for user confirm count : 23
+    - Wait for user confirm count : 24
+    - Wait for user confirm count : 25
+    - Wait for user confirm count : 26
+    - Wait for user confirm count : 27
+    - Wait for user confirm count : 28
+    - Wait for user confirm count : 29
+    - Wait for user confirm count : 30
+ * Result
+     - Signer not confirm from App
+
