@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Test sign document via SmartCA";
+}
+@model Sample.WebApp.SmartCAv4.Models.SignDocModel
+
+<main aria-labelledby="title">
+    
+    
+
+    <h3>@ViewBag.Message</h3>
+    @using (Html.BeginForm("SignDoc", "Home", new { area = "" }, FormMethod.Post, new { encType = "multipart/form-data", id = "SignDoc", @class = "" }))
+    {
+        <div id="bodyForm">
+            <div class="form-group row">
+                @Html.TextBoxFor(model => model.RefDoc, new { type = "file", @class = "" })
+            </div>
+            @{
+                if (!string.IsNullOrEmpty(Model.ErrMsg))
+                {
+                    <h5 class="text-danger">@Model.ErrMsg</h5>
+                }
+            }
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-outline-primary">Tải lên và ký</button>
+            </div>
+        </div>
+
+    }
+
+</main>

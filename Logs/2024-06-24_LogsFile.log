@@ -1,0 +1,52 @@
+02:42:54.015 PM 
+======================Sign Pdf File=====================
+ * RequestParam:
+    - appId: 4540-637891593888578338.apps.smartcaapi.com
+    - appSecret: MjAzYjZhMWY-NzRiZS00NTQw
+    - userId: 056200002669_002
+    - serialNumber: 
+    - transactionDesc: Test ký file Đo vẽ đất - 441HD.pdf
+    - signType: Hash
+    - fileName: Đo vẽ đất - 441HD.pdf
+    - fileType: PDF
+ 1. Get Certificate 
+ * Response: 
+    - serialNumber: 54010101491f033fd3df042099eb00b0
+    - transactionId: b1d4f214-0b68-40b6-a926-c85105681b24
+ 2. Get Hash Signer 
+ * Hash Value: zXtydElZc+5txBWuyQvZTY6T84i+RfhnaQac2242Grs=
+ 3. Sign Data 
+ * Wait for user confirm: Transaction_Id = b1d4f214-0b68-40b6-a926-c85105681b24:
+    - Wait for user confirm count : 1
+    - Wait for user confirm count : 2
+    - Wait for user confirm count : 3
+    - Wait for user confirm count : 4
+    - Wait for user confirm count : 5
+    - Wait for user confirm count : 6
+    - Wait for user confirm count : 7
+    - Wait for user confirm count : 8
+    - Wait for user confirm count : 9
+    - Wait for user confirm count : 10
+    - Wait for user confirm count : 11
+    - Wait for user confirm count : 12
+    - Wait for user confirm count : 13
+    - Wait for user confirm count : 14
+    - Wait for user confirm count : 15
+    - Wait for user confirm count : 16
+    - Wait for user confirm count : 17
+    - Wait for user confirm count : 18
+    - Wait for user confirm count : 19
+    - Wait for user confirm count : 20
+    - Wait for user confirm count : 21
+    - Wait for user confirm count : 22
+    - Wait for user confirm count : 23
+    - Wait for user confirm count : 24
+    - Wait for user confirm count : 25
+    - Wait for user confirm count : 26
+    - Wait for user confirm count : 27
+    - Wait for user confirm count : 28
+    - Wait for user confirm count : 29
+    - Wait for user confirm count : 30
+ * Result
+     - Signer not confirm from App
+
